@@ -16,7 +16,7 @@ use merco as middleware:
 
 set route from which you want to serve files:
 
-- `app.get('/build', merco.route);`
+- `app.get('/build/*', merco.route);`
 
 use it in template (.ejs):
 
