@@ -1,4 +1,4 @@
-***Merco*** is solution to merge and minify JS files in run time. It also a cache buster.
+***Merco*** is solution to merge and minify JS files in run time. It's also a cache buster.
 
 Why run time ?
 ==
