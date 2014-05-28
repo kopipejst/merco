@@ -23,7 +23,7 @@ use it in template (.ejs):
     <% getJS('PATH/TO/FILE1') %>
     <% getJS('PATH/TO/FILE2') %>
 
-    <%= printJS() %>
+    <%- printJS() %>
 
 
 Params
