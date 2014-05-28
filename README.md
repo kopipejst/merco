@@ -1,5 +1,7 @@
 ***Merco*** is solution to merge and minify JS files in run time. It's also a cache buster.
 
+[![Build Status](https://travis-ci.org/kopipejst/merco.png)](https://travis-ci.org/kopipejst/merco)
+
 Why run time ?
 ==
 - in case of large application and big number of files run time is much more convinient than build time
