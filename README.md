@@ -40,6 +40,8 @@ Params
 
 ***sKey*** - secret key that will be used for encryption
 
+***cache*** - default true, in dev environment set cache to false
+
 Notes
 ==
 
