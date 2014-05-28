@@ -1,12 +1,4 @@
-***Merco*** is solution to merge and minify JS files in run time. It's also a cache buster.
-
-[![Build Status](https://travis-ci.org/kopipejst/merco.png)](https://travis-ci.org/kopipejst/merco)
-
-Why run time ?
-==
-- in case of large application and big number of files run time is much more convinient than build time
-- this is also useful in case of multivariant tests when we want to have different js for different variants
-- it's easier to use in some case
+***Merco*** is Express middleware for merging and minifying JS files in run time. It also support cache busting.
 
 
 How to use it ?
@@ -26,6 +18,13 @@ set route from which you want to serve files:
 
 - `app.get('/build', merco.route);`
 
+use it in template (.ejs):
+
+    <% getJS('PATH/TO/FILE1') %>
+    <% getJS('PATH/TO/FILE2') %>
+
+    <%= printJS() %>
+
 
 Params
 ==
@@ -41,6 +40,12 @@ Params
 ***sKey*** - secret key that will be used for encryption
 
 ***cache*** - default true, in dev environment set cache to false
+
+Why run time ?
+==
+- in case of large application and big number of files doing this in run time is much more convinient
+- this is also useful in case of multivariant tests when we want to have different js for different variants
+- it's easier to use in some case
 
 Notes
 ==
