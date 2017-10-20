@@ -41,6 +41,10 @@ Params
 
 ***cache*** - default true, in dev environment set cache to false
 
+***ignoreSameFile*** - default true, ignores same file while registering with `getJS()`
+
+***async*** - default true, includes `async` attribute to script tag. More about it [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+
 Why run time ?
 ==
 - in case of large application and big number of files doing this in run time is much more convinient
