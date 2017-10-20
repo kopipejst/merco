@@ -43,7 +43,7 @@ Params
 
 ***ignoreSameFile*** - default true, ignores same file while registering with `getJS()`
 
-***async*** - default true, includes `async` attribute to script tag. More about it [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+***async*** - default false, includes `async` attribute to script tag. More about it [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
 Why run time ?
 ==
