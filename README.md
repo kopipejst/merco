@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/kopipejst/merco.svg?branch=master)](https://travis-ci.org/kopipejst/merco)
+
 ***Merco*** is Express middleware for merging and minifying JS files in run time. It also support cache busting.
 
 
