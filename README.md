@@ -45,6 +45,13 @@ Params
 
 ***async*** - default false, includes `async` attribute to script tag. More about it [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
+Testing
+==
+
+```
+npm run test
+```
+
 Why run time ?
 ==
 - in case of large application and big number of files doing this in run time is much more convinient
